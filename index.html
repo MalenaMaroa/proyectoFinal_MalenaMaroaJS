@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Música</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <h1>Long Live Grunge</h1>
+    </header>
+    <main>
+        <section id="filters">
+            <input type="text" id="search" placeholder="Buscar por nombre o artista">
+            <select id="sort">
+                <option value="default">Ordenar por</option>
+                <option value="name">Nombre</option>
+                <option value="artist">Artista</option>
+                <option value="price">Precio</option>
+            </select>
+        </section>
+        <section id="music-list">
+            <h2>Lista de álbumes</h2>
+            
+        </section>
+        <section id="cart">
+            <h2>Carrito</h2>
+            <div id="cart-items">
+            </div>
+            <div id="total-price">
+                <strong>Total: $ </strong>0 
+            </div>
+            <button id="checkout">Finalizar Compra</button>
+        </section>
+    </main>
+    <script src="./js/app.js"></script>
+</body>
+</html>

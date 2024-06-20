@@ -1,0 +1,20 @@
+[
+    {
+        "id": "1",
+        "name": "Thriller",
+        "artist": "Michael jackson",
+        "price": 100
+    },
+    {
+        "id": "2",
+        "name": "Back in black",
+        "artist": "ACDC",
+        "price": 150
+    },
+    {
+        "id": "3",
+        "name": "Numb",
+        "artist": "Nirvana",
+        "price": 200
+    }
+]
